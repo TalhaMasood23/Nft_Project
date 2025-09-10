@@ -1,0 +1,20 @@
+    
+    .button-NFT-home-C{
+        
+    width: 100%;
+    height: 70%;
+    margin-left: 70%;
+  background: linear-gradient(to right, #3b82f6, #8b5cf6); /* blue to purple */
+  color: white;
+  padding: 2px 5px;
+  border: none;
+  border-radius: 12px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.button-NFT-home-C:hover {
+  background: linear-gradient(to right, #2563eb, #7c3aed); /* darker on hover */
+}
+    

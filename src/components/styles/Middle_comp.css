@@ -1,0 +1,32 @@
+.middle-container-grid {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 5% 5%;
+    background: rgba(128, 128, 128, 0.2);
+    backdrop-filter: blur(10px);
+    border-radius: 0%;
+    margin-left: 8%;
+    margin-right: 6%;
+    margin-top: 10%;
+}
+
+.middle-container-grid-1-column {
+    flex: 2;
+    color: aliceblue;
+    margin-left: 2%;
+}
+
+.middle-container-grid-2-column {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.middle-container-grid-2-column img {
+    width: 110%;
+    height: auto;
+    max-width: 340px;
+    margin-top: -15%;
+}

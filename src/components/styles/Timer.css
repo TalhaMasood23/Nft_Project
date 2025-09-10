@@ -1,0 +1,32 @@
+.timer-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #000000);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.timer-display {
+  background-color: rgba(255, 255, 255, 0.1);
+  padding: 10px 15px;
+  border-radius: 20px;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.3);
+  font-size: 1.2rem;
+  color: #ffffff;
+  display: flex;
+  align-items: baseline;
+  gap: 5px;
+}
+
+.time-part {
+  font-weight: bold;
+  min-width: 2ch;
+  text-align: center;
+}
+
+.ampm {
+  font-size: 1.2rem;
+  margin-left: 10px;
+  text-transform: uppercase;
+  color: #ccc;
+}

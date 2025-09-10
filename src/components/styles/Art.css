@@ -1,0 +1,18 @@
+.button-NFT-Art{
+    width: 100%;
+    height: 30%;
+    margin-left: 50%;
+    margin-top: 15%;
+    background: linear-gradient(to right, #3b82f6, #8b5cf6);
+    color: white;
+    padding: 20px 10px;
+    border: none;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.button-NFT-Art:hover {
+  background: linear-gradient(to right, #2563eb, #7c3aed); /* darker on hover */
+}

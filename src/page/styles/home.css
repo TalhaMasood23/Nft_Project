@@ -1,0 +1,333 @@
+@import url('https://fonts.googleapis.com/css2?family=Iceland&family=VT323&display=swap');
+
+body{
+    margin: 0;
+    height: 100vh;
+    background-color: transparent;
+
+    }
+
+.grid-home-main{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    margin: 5% 5%;
+    gap: 8%;
+    color: #fff;
+    padding: 20px 20px;
+
+}
+
+.grid-home-main-1-column{
+    font-family: "VT323", monospace;
+    font-weight: 400;
+    font-style: normal;
+    margin-top: 12%;
+}
+
+.grid-home-main-1-column h1{
+    font-size: 7rem;
+}
+
+.grid-home-main-1-column h4{
+    font-size: 25px;
+}
+
+.grid-home-main-1-column p{
+    font-size: 23px;
+}
+
+.grid-home-main-2-column img{
+    margin: -25% 0% 0% 0%;
+    width:auto;
+    height:100%;
+}
+
+.button-explore{
+    background-color: transparent;
+    border: 2px solid red;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 5% 0% 0% 0%;
+    cursor: pointer;
+    border-radius: 30%;
+}
+
+.button-explore:hover{
+    background-color: red;
+    border: 2px solid red;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 5% 0% 0% 0%;
+    cursor: pointer;
+    border-radius: 30%;
+}
+
+.button-NFT{
+    background-color: transparent;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 5% 0% 0% 0%;
+    cursor: pointer;
+}
+
+.button-NFT:hover{
+    color: red;
+}
+
+.button-NFT-1 {
+    background-color: rgba(158, 158, 158, 0.644);
+    backdrop-filter: blur(6px);
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.button-NFT-2 {
+    background-color: rgba(158, 158, 158, 0.644);
+    backdrop-filter: blur(6px);
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+    margin: 0% 0% 0% 55%;
+}
+
+.button-NFT-3 {
+    background-color: rgba(158, 158, 158, 0.644);
+    backdrop-filter: blur(6px);
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+    margin: 2% 0% 0% 65%;
+}
+
+.home-card-container {
+    display: flex;
+    justify-content: center;
+    gap: 6%;
+    background: rgba(128, 128, 128, 0.2);
+    backdrop-filter: blur(10px);
+    border-radius: 12px;
+    margin-left:4%;
+    padding: 40px;
+    width: 180%;
+}
+
+.home-card {
+    width: 160px;
+    border-radius: 16px;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+}
+
+.home-card:hover {
+    transform: translateY(-6px);
+}
+
+.home-card-inner {
+    gap:2%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(
+    to right,
+    rgba(0, 0, 255, 0.2),
+    rgba(128, 0, 128, 0.2)
+);
+    border: 1px solid rgb(60, 51, 114);
+    backdrop-filter: blur(10px);
+    border-radius: 12px;
+    margin-top: 40%;
+    height: 80%;
+}
+
+.home-card-image img {
+    width: 80%;
+    height: auto;
+    border-radius: 12px;
+    margin: -7% 0% 0% 10%;
+}
+
+.home-card-content {
+    text-align: center;
+    margin-top: 12px;
+    font-size: 15px;
+    margin-right: 50%
+}
+
+.home-card-price {
+    font-weight: bold;
+    color: #fff;
+    font-size: 15px;
+    text-align: right;
+    margin-left: 180%;
+    margin-bottom: 30%;
+    margin-top: -20%;
+}
+.home-card-title{
+    font-size: 12px;
+    margin-left: -35px
+}
+.Home-card-tittle-2{
+    width: 8%;
+    height: 8%;
+    font-size: 8px;
+}
+
+.Art-card-container {
+    display: flex;
+    justify-content: center;
+    gap: 6%;
+    margin-left: 8%;
+    padding: 10px;
+    width: 86%;
+    margin-top: -30%;
+}
+
+.Art-card {
+    width: 160px;
+    border-radius: 16px;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+}
+
+.Art-card:hover {
+    transform: translateY(-6px);
+}
+
+.Art-card-inner{
+    gap:2%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(
+    to right,
+    rgba(0, 0, 255, 0.2),
+    rgba(128, 0, 128, 0.2)
+);
+    border: 1px solid rgb(60, 51, 114);
+    backdrop-filter: blur(10px);
+    border-radius: 12px;
+    margin-top: 40%;
+    height: 80%;
+}
+
+.Art-card-image img {
+    width: 60%;
+    height: auto;
+    border-radius: 12px;
+    margin: 8% 0% 0% 20%;
+}
+
+.Art-card-content {
+    text-align: center;
+    margin-top: 12px;
+    font-size: 15px;
+    margin-right: 50%;
+    color:#fff
+}
+
+.Art-card-rating {
+    font-weight: bold;
+    color: #fff;
+    font-size: 12px;
+    text-align: right;
+    margin-left: 100%;
+    margin-bottom: 11%;
+    margin-top: -13%;
+}
+
+.Art-card-title{
+    font-size: 12px;
+    margin-left: -35px;
+}
+
+.Art-card-tittle-2{
+    width: 8%;
+    height: 8%;
+    font-size: 8px;
+}
+
+.Art-card-price, .Art-card-button{
+    display: flex;
+    flex-direction: row;
+    color: #fff;
+}
+
+.Art-card-button {
+    margin: -35% 0% 15% 145%;
+}
+
+.Art-card-desc{
+    margin-left: -15%;
+    font-size: 10px;
+}
+
+.Art-card-container2 {
+    display: flex;
+    justify-content: center;
+    gap: 6%;
+    /* background: rgba(128, 128, 128, 0.2);
+    backdrop-filter: blur(10px);
+    border-radius: 0%; */
+    margin-left: 8%;
+    padding: 10px;
+    width: 86%;
+    margin-top: 0%;
+}
+
+.Art-card-title-Network{
+    color:#fff;
+    font-size: 25px;
+    margin-left: -13%;
+    margin-right: -12%;
+    margin-top:-5%
+}
+
+.Art-card-title-Network-button{
+    color:black;
+    font-size: 10px;
+    margin-left: -13%;
+    margin-right: -6%;
+    margin-bottom: 32%;
+    margin-top:-5%;
+    background: #fff;
+    border-radius: 8px;
+    padding: 5px
+}
+
+
+
+.artist-card-container3 {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    margin-left: 8%;
+    padding: 10px;
+    width: 86%;
+    
+
+}
+
